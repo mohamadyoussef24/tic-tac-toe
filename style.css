@@ -1,0 +1,47 @@
+body{
+  background-color: aqua;
+}
+#game {
+  text-align: center;
+}
+
+#board {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(6, 75, 75);
+}
+
+h1{
+text-align: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 10px;
+}
+
+#scores {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+span {
+  display: block;
+}
